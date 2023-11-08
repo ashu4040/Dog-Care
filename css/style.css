@@ -1,0 +1,248 @@
+
+#nav{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #daac00;
+
+}
+#nav_sections{
+    gap: 15%;
+    font-size: 18px;
+    color: white;
+}
+#nav_section{
+    gap: 3%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+  }
+
+  .navbar-nav .nav-link, .navbar-nav .nav-link.show {
+    color: white;
+  }
+
+#search{
+    /* position: relative; */
+    /* left: 0%; */
+    /* right: 0%; */
+    background-color: #fcc302;
+    border: 0;
+    /* box-shadow: 5px 5px 5px grey; */
+    box-shadow: 5px 5px 20px #7e7e7e;
+}
+
+#search_btn{
+    position: relative;
+    /* left: 0; */
+    right: 48px;
+    z-index: 999;
+    text-decoration: none;    
+    background-color: black;
+    color: white;
+    border: 0;
+
+    
+}
+
+@media (max-width:700px) {
+    #search_btn{
+        position: absolute;
+        right: 40px;
+        z-index: 99;
+    }
+    #product-section h1{
+
+        font-size: 2rem;
+        /* padding-bottom: 5px; */
+  }
+
+  #product-section p{
+font-size: 1.2rem;
+  }
+  #banner_h1 h1{
+    font-size: 2rem;
+  }
+
+  #banner_h1 p{
+    font-size: 1.2rem;
+  }
+  #product-section{
+    padding-top: 50px;
+    /* margin-bottom: 100px; */
+    height: 100vh;
+    
+  }
+  #banner{
+    height: 82vh;
+  }
+
+  #third_page_img1{
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    /* width: 100%; */
+
+  }#third_page_img2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    /* width: 100%; */
+    background-color: #fcc302;
+  }
+#third_page h1{
+  font-size: 2rem;
+  /* color: white; */
+}
+#third_page p{
+  font-size: 1.2rem;
+}
+
+}
+
+#banner_h1 h1{
+    /* font-size: 5rem; */
+    margin-top: 50px;
+    font-weight:bold;
+    /* margin-left: 50px; */
+    width: 100%;
+}
+#banner_h1 p{
+    /* font-size: 2rem; */
+    font-weight: normal;
+}
+#banner_img{
+    margin-top: 50px;
+    
+    
+}
+
+#banner{
+    background-color:#fcc302;
+    /* height: 100vh; */
+}
+
+#btn_1{
+    background-color: black;
+    /* border: 2px solid aqua; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#btn_2{
+    font-weight: bold;
+    background-color: #fcc302;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left:20px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+@media (min-width: 1200px) {
+    .h1, h1 {
+      font-size: 5rem;
+    }
+    #btn_2{
+        padding: 13px;
+        font-size: 24px;
+        margin-left: 80px;
+        
+    }
+    #banner_h1 p {
+        font-size: 2rem;
+      }
+      #btn_1{
+        padding: 13px;
+        font-size: 24px;
+    }
+  #banner{
+    height: 90vh
+  }
+
+  }
+
+  @media (min-width: 800px ) {
+    #product-section{
+        padding-top: 170px;
+/* padding-bottom: 100px; */
+height: 100vh;
+    
+      }
+      #product-sction h1{
+    
+            font-size: 4rem;
+      }
+      #product-section p{
+        font-size: 1.5rem;
+      }
+      #product_img{
+        width: 100%;
+        padding-top: 20px;
+      }
+      #hidden_h1{
+    display: none;
+    /* color: #fcc302; */
+
+      }
+
+     
+  }
+
+
+  #product-section h1{
+    /* font-size: 5rem; */
+    /* margin-top: 50px; */
+    font-weight:bold;
+    /* margin-left: 50px; */
+    width: 100%;
+  }
+
+  #product_btn{
+    background-color:#fcc302;
+    /* border: 2px solid aqua; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+
+  #product_img{
+    width: 100%;
+    /* padding-top: 10px; */
+  }
+
+  #hidden_h1{
+    color:#fcc302;
+    font-size: 2.3rem;
+    padding-bottom: 50px;
+    padding-top: 0%;
+  }
+
+  #third_page{
+    height: 100vh;
+    background-color: #fcc302;
+  }
+
+  #third_page_h1{
+    font-weight: bold;
+    padding-top: 50px;
+      font-size: 4rem;
+      padding-bottom: 10px;
+}
+  #third_page_p{
+    font-size: 1.5rem;
+  }
+
+ 
+
+#last_section{
+  background-color: #daac00;
+}
